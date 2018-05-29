@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Strikeball</title>
+    <link rel="icon" href="assets/Strikeball.ico" type="image/x-icon" />
+    <style>
+        body{
+            background-image: url('assets/fondohtml.png');
+        }
+        
+        #game{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="js/phaser.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<body>
+    <div id='game'></div>
+</body>
+    <!-- PLUGINS -->
+    <script src="js/phaser-input.js" type="text/javascript"></script>
+    <!-- ESCENAS -->
+    <script src="js/preloadCarga.js" type="text/javascript"></script>
+    <script src="js/pantallaCarga.js" type="text/javascript"></script>
+    <script src="js/pantallaPrincipal.js" type="text/javascript"></script>
+    <script src="js/menuPrincipal.js" type="text/javascript"></script>
+    <script src="js/howtoplay.js" type="text/javascript"></script>
+    <script src="js/training.js" type="text/javascript"></script>
+    <script src="js/menuLobby.js" type="text/javascript"></script>
+    <script src="js/game.js" type="text/javascript"></script>
+    <script src="js/tablero.js" type="text/javascript"></script>
+    <script src="js/gameItems.js" type="text/javascript"></script>
+    <script src="js/lobby.js" type="text/javascript"></script>
+    <script src="js/ranking.js" type="text/javascript"></script>
+    <script src="js/register.js" type="text/javascript"></script>
+    <script src="js/settings.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/client.js" type="text/javascript"></script>
+</html>
